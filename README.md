@@ -6,7 +6,7 @@ Hey! This repo contains some simple BDD tests for the Agify API, which guesses a
 I wrote these tests using JavaScript with Cucumber and Axios. The goal is to check that the API behaves correctly like returning ages, handling batch requests, and dealing with edge cases like empty or special character names
 
 
-##What’s Covered in Scenario?
+##What’s Covered in Scenarios?
 
 -Single name age estimation
 -Estimation with country code
@@ -17,15 +17,13 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 -What happens when you send more than 10 names in a batch
 
 ##Structure - 
-├── features
-│ ├── agify.feature # BDD scenarios (Gherkin syntax)
-│ └── step_definitions
-│ └── agifySteps.js # JavaScript step defs implementations
-├── package.json
-├── package-lock.json
-└── README.md
-└── Output Demonstration.png
 
+-features -> agify.feature # BDD scenarios (Gherkin syntax)
+-features -> step_definitions -> agifySteps.js # JavaScript step defs implementations
+-package.json
+-package-lock.json
+-README.md (Brief about the project)
+-Output Demonstration.png (Screenshot of output)
 
 
 ##Prerequisites
