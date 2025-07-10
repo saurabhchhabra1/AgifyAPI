@@ -72,4 +72,7 @@ To eliminate this warning, add "type": "module" to C:\Projects\Angify\package.js
 0m03.422s (executing steps: 0m03.398s)
 
 
-
+##My Observation while testing this API
+- Empty name scenario should not give 200 status code, ideally it should be 400 bad request as there is no name input
+- Havent tested data for accuracy as mentioned
+- It is giving 200 status code even if sending numbers as input, havent wrote this scenario but it works same as putting special characters or empty name which is already in scenarios.
