@@ -8,13 +8,13 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 
 ##What’s Covered in Scenarios?
 
--Single name age estimation
--Estimation with country code
--Empty names
--Special characters
--Names in other languages (like Chinese)
--Batch requests with multiple names
--What happens when you send more than 10 names in a batch
+- Single name age estimation
+- Estimation with country code
+- Empty names
+- Special characters
+- Names in other languages (like Chinese)
+- Batch requests with multiple names
+- What happens when you send more than 10 names in a batch
 
 ##Structure - 
 
