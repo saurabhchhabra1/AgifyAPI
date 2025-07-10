@@ -18,12 +18,12 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 
 ##Structure - 
 
--features -> agify.feature # BDD scenarios (Gherkin syntax)
--features -> step_definitions -> agifySteps.js # JavaScript step defs implementations
--package.json
--package-lock.json
--README.md (Brief about the project)
--Output Demonstration.png (Screenshot of output)
+- features -> agify.feature # BDD scenarios (Gherkin syntax)
+- features -> step_definitions -> agifySteps.js # JavaScript step defs implementations
+- package.json
+- package-lock.json
+- README.md (Brief about the project)
+- Output Demonstration.png (Screenshot of output)
 
 
 ##Prerequisites
