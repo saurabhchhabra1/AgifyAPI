@@ -1,4 +1,4 @@
-# Agify API - BDD Test Suite
+# Agify API - BDD Test Suite in JS
 
 Better to see README.md file in Code option in Github, instead of preview.
 
