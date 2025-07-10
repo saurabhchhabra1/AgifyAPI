@@ -1,7 +1,5 @@
 # Agify API - BDD Test Suite in JS
 
-Better to see README.md file in Code option in Github, instead of preview.
-
 Hey! This repo contains some simple BDD tests for the Agify API, which guesses a person’s age based on their name.
 I wrote these tests using JavaScript with Cucumber and Axios. The goal is to check that the API behaves correctly like returning ages, handling batch requests, and dealing with edge cases like empty or special character names
 
