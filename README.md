@@ -34,10 +34,40 @@ I used - v22.17.0
 ##Install Dependencies
 - npm install
 
-
-
 ##Run test
+- npm test
+  or
 - npm run test
+
+##Output/Execution
+- Output can be seen in Output Demonstration.png
+- Adding the terminal output here also for reference:
+
+  C:\Projects\Angify>npm test
+
+> agifyapi-js@1.0.0 test
+> cucumber-js
+
+(node:38852) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/Angify/features/step_definitions/agifySteps.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Projects\Angify\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+.Data: { count: 203647, name: 'Robert', age: 73 }
+......Data: { count: 1838, name: 'Saurabh', age: 41, country_id: 'IN' }
+.......Data: { count: 0, name: '', age: null }
+......Data: { count: 0, name: '#*+', age: null }
+......Data: { count: 0, name: '佐瑞', age: null, country_id: 'CN' }
+.......Data: [
+  { count: 203647, name: 'Robert', age: 73 },
+  { count: 2130, name: 'Saurabh', age: 41 },
+  { count: 17980, name: 'Bruce', age: 76 }
+]
+....status code 422
+.
+
+7 scenarios (7 passed)
+38 steps (38 passed)
+0m03.422s (executing steps: 0m03.398s)
 
 
 
