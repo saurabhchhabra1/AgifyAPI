@@ -24,6 +24,8 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 ├── package.json
 ├── package-lock.json
 └── README.md
+└── Output Demonstration.png
+
 
 
 ##Prerequisites
