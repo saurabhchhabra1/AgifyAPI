@@ -42,15 +42,11 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 - Have printed response output also
 - Adding the terminal output here also for reference:
 
-  C:\Projects\Angify>npm test
+ C:\Projects\Angify>npm run test
 
 > agifyapi-js@1.0.0 test
 > cucumber-js
 
-(node:38852) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Projects/Angify/features/step_definitions/agifySteps.js is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Projects\Angify\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
 .Data: { count: 203647, name: 'Robert', age: 73 }
 ......Data: { count: 1838, name: 'Saurabh', age: 41, country_id: 'IN' }
 .......Data: { count: 0, name: '', age: null }
@@ -66,7 +62,7 @@ To eliminate this warning, add "type": "module" to C:\Projects\Angify\package.js
 
 7 scenarios (7 passed)
 38 steps (38 passed)
-0m03.422s (executing steps: 0m03.398s)
+0m03.142s (executing steps: 0m03.115s)
 
 
 ##My Observation while testing this API
