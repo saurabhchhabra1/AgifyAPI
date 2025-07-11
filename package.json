@@ -1,6 +1,7 @@
 {
   "name": "agifyapi-js",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "test": "cucumber-js"
   },
