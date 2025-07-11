@@ -27,7 +27,7 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 ##Prerequisites
 - Node.js v18 or higher
 - npm
-I used - v22.17.0
+- I used - v22.17.0 node version and npm version - 10.9.2
 
 ##Install Dependencies
 - npm install
