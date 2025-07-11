@@ -38,7 +38,8 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 - npm run test
 
 ##Output/Execution
-- Output can be seen in Output Demonstration.png
+- Output can be seen in (Output Demonstration.png) file also, which consist of screenshot of my terminal run.
+- Have printed response output also
 - Adding the terminal output here also for reference:
 
   C:\Projects\Angify>npm test
