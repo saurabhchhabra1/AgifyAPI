@@ -42,6 +42,7 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 - Have printed response output also
 - Adding the terminal output here also for reference:
 
+<pre>
  C:\Projects\Angify>npm run test
 
 > agifyapi-js@1.0.0 test
@@ -63,7 +64,7 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 7 scenarios (7 passed)
 38 steps (38 passed)
 0m03.142s (executing steps: 0m03.115s)
-
+</pre>
 
 ##My Observation while testing this API
 - Empty name scenario should not give 200 status code, ideally it should be 400 bad request as there is no name input
