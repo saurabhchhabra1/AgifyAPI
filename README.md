@@ -31,6 +31,7 @@ I wrote these tests using JavaScript with Cucumber and Axios. The goal is to che
 
 ##Install Dependencies
 - npm install
+- Above should install all dependencies when cloning this project, if getting error in imports then try this - npm install axios chai @cucumber/cucumber
 
 ##Run test
 - npm test
